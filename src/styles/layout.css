@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;300;400;700&display=swap');
+
+:root {
+    --color-primary1: hsl(233, 26%, 24%);
+    --color-primary2: hsl(136, 65%, 51%);
+    --color-primary3: hsl(192, 70%, 51%);
+
+    --color-neutral1: hsl(233, 8%, 62%);
+    --color-neutral2: hsl(220, 16%, 96%);
+    --color-neutral3: hsl(0, 0%, 98%);
+    --color-neutral4: hsl(0, 0%, 100%);
+
+    --font-size-large: 1.2rem;
+    --font-size-small:calc(var(--font-size-large) * 0.63);
+    --font-size-smaller:calc(var(--font-size-large) * 0.51);
+
+    --mobile-width: 376px;
+
+    --space: 1.5rem;
+}
+
+* {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+    font-size: var(--font-size-large);
+    color: inherit;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 155%;
+}
+
+p {
+    font-size: 80%;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.box {
+    --box-space: var(--space);
+    padding: var(--box-space);
+}
+
+.outer__margin {
+    --outer-margin-space: var(--space);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.stack {
+    --stack-space: 1rem;
+}
+
+.stack > * + * {
+    margin-top: var(--stack-space);
+}
+
+.queue {
+    --queue-space: 1rem;
+}
+
+.queue > * + * {
+    margin-left: var(--queue-space);
+}
+
+.switcher {
+    display: flex;
+    flex-wrap: row;
+}
+
+.switcher > * {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.grid {
+    --gird-space: 1rem;
+    --minimum: 20ch;
+    display: grid;
+    gap: var(--gird-space);
+}
+
+@supports (width: min(var(--minimum, 100%))) {
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(min(var(--minimum), 100%), 1fr));
+    }
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: var(--mobile-width)) {
+    .box {}
+}

@@ -1,0 +1,129 @@
+header {
+    background-color: var(--color-neutral4);
+    display: flex;
+    position: fixed;
+    align-items: center;
+    z-index: 1000;
+    width: 100vw;
+}
+
+header > :first-child {
+    margin-right: auto;
+}
+
+header > :last-child {
+    margin-left: auto;
+}
+
+nav {
+    display: none;
+}
+
+nav:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-neutral1);
+    opacity: 0.6;
+}
+
+nav > :first-child {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    right: 1.5rem;
+    background-color: var(--color-neutral4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.showNav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 4.4rem;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.intro > :first-child {
+    position: relative;
+    text-align: center;
+    background: url("../assets/images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.intro > :first-child> :only-child {
+    position: relative;
+    max-width: 85%;
+    top: -1.5rem;
+    bottom: 0;
+}
+
+.intro > :nth-child(2) {
+    color: var(--color-primary1);
+}
+
+.intro p {
+    text-align: justify;
+} 
+
+.request__invite {
+    background-color: var(--color-primary2);
+    border-radius: 3rem;
+    width: 10rem;
+    padding: 1rem;
+    font-size: var(--font-size-small);
+    font-weight: 400;
+    color: var(--color-neutral4);
+}
+
+.why__us {
+    color: var(--color-primary1);
+    background-color: var(--color-neutral2);
+}
+
+.latest__article * :not(h1) {
+    background-color: var(--color-neutral4);
+    font-size: var(--font-size-smaller);
+}
+
+.latest__article h2 {
+    font-size: var(--font-size-small);
+}
+
+.latest__article > :first-child {
+    margin-top: calc(var(--space) * 3);
+}
+
+.latest__article > :last-child * {
+    text-align: left;
+    background-color: var(--color-neutral3);
+}
+
+.card > img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: var(--color-primary1);
+    color: var(--color-neutral2);
+}
+
+footer svg :nth-child(2) :first-child {  /*I don't know much about svg, so this is kinda crappy*/
+    fill: white;
+}
+
+footer p {
+    font-size: var(--font-size-small);
+}
