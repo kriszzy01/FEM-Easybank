@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/FEM-Easybank/static/css/main.f4f88b3f.chunk.css",
-    "main.js": "/FEM-Easybank/static/js/main.c1137643.chunk.js",
-    "main.js.map": "/FEM-Easybank/static/js/main.c1137643.chunk.js.map",
+    "main.css": "/FEM-Easybank/static/css/main.b6ad5c83.chunk.css",
+    "main.js": "/FEM-Easybank/static/js/main.0a3b11c8.chunk.js",
+    "main.js.map": "/FEM-Easybank/static/js/main.0a3b11c8.chunk.js.map",
     "runtime-main.js": "/FEM-Easybank/static/js/runtime-main.6f161db1.js",
     "runtime-main.js.map": "/FEM-Easybank/static/js/runtime-main.6f161db1.js.map",
     "static/js/2.145b088d.chunk.js": "/FEM-Easybank/static/js/2.145b088d.chunk.js",
     "static/js/2.145b088d.chunk.js.map": "/FEM-Easybank/static/js/2.145b088d.chunk.js.map",
     "index.html": "/FEM-Easybank/index.html",
-    "precache-manifest.32aab5a890930877616cb119c241cd64.js": "/FEM-Easybank/precache-manifest.32aab5a890930877616cb119c241cd64.js",
+    "precache-manifest.d101902f271c663bfe4954978995c5be.js": "/FEM-Easybank/precache-manifest.d101902f271c663bfe4954978995c5be.js",
     "service-worker.js": "/FEM-Easybank/service-worker.js",
-    "static/css/main.f4f88b3f.chunk.css.map": "/FEM-Easybank/static/css/main.f4f88b3f.chunk.css.map",
+    "static/css/main.b6ad5c83.chunk.css.map": "/FEM-Easybank/static/css/main.b6ad5c83.chunk.css.map",
     "static/js/2.145b088d.chunk.js.LICENSE.txt": "/FEM-Easybank/static/js/2.145b088d.chunk.js.LICENSE.txt",
     "static/media/components.css": "/FEM-Easybank/static/media/bg-intro-mobile.c23dd1d0.svg",
     "static/media/icon-api.svg": "/FEM-Easybank/static/media/icon-api.db3d8906.svg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.6f161db1.js",
     "static/js/2.145b088d.chunk.js",
-    "static/css/main.f4f88b3f.chunk.css",
-    "static/js/main.c1137643.chunk.js"
+    "static/css/main.b6ad5c83.chunk.css",
+    "static/js/main.0a3b11c8.chunk.js"
   ]
 }

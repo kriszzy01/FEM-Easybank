@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "569db51642d30a41644901ce8b7c65eb",
+    "revision": "f66f3e7825702f757c48e57046a78c07",
     "url": "/FEM-Easybank/index.html"
   },
   {
-    "revision": "41118b6720d475ca542c",
-    "url": "/FEM-Easybank/static/css/main.f4f88b3f.chunk.css"
+    "revision": "3c4909089fc82847eed4",
+    "url": "/FEM-Easybank/static/css/main.b6ad5c83.chunk.css"
   },
   {
     "revision": "d6b5ee495a25651cf82e",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FEM-Easybank/static/js/2.145b088d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "41118b6720d475ca542c",
-    "url": "/FEM-Easybank/static/js/main.c1137643.chunk.js"
+    "revision": "3c4909089fc82847eed4",
+    "url": "/FEM-Easybank/static/js/main.0a3b11c8.chunk.js"
   },
   {
     "revision": "4813adeeab2616baa7be",
     "url": "/FEM-Easybank/static/js/runtime-main.6f161db1.js"
+  },
+  {
+    "revision": "9cea2f98108b16ed09dec91dc0e5a4d4",
+    "url": "/FEM-Easybank/static/media/bg-intro-desktop.9cea2f98.svg"
   },
   {
     "revision": "c23dd1d0b7e4b4a1637d50cbb9fff810",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/FEM-Easybank/precache-manifest.32aab5a890930877616cb119c241cd64.js"
+  "/FEM-Easybank/precache-manifest.d101902f271c663bfe4954978995c5be.js"
 );
 
 self.addEventListener('message', (event) => {
